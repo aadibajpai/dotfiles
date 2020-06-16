@@ -1,1 +1,2 @@
-/usr/local/bin/subl
+#!/usr/bin/env sh
+exec '/mnt/c/Program Files/Sublime Text 3/subl.exe' "$(wslpath -m "$1")"
