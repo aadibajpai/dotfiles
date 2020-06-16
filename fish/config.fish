@@ -1,0 +1,1 @@
+/home/clash/.config/fish/config.fish
