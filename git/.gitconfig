@@ -2,5 +2,3 @@
 	email = me@aadibajpai.me
 	name = Aadi Bajpai
 	signingkey = AA75B83DB24703D6
-[core]
-	autocrlf = true
