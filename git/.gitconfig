@@ -1,4 +1,6 @@
 [user]
 	email = hello@aadibajpai.com
 	name = Aadi Bajpai
-	signingkey = BFE0CFDBF90E4BF0 
+	signingkey = BFE0CFDBF90E4BF0
+[commit]
+	gpgsign = true
