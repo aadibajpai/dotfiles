@@ -9,9 +9,11 @@ set pastetoggle=<F2>
 set mouse=a
 filetype plugin indent on
 
-" cpp linting
+let g:ale_python_flake8_options = '--max-line-length=120'
+
 call plug#begin()
 Plug 'dense-analysis/ale'
+Plug 'jiangmiao/auto-pairs'
 call plug#end()
 
 " wsl yank support
