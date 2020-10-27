@@ -2,6 +2,7 @@ colorscheme murphy
 syntax on
 set number
 set tabstop=4
+set shiftwidth=4
 set expandtab
 set autoindent
 set smartindent
@@ -10,6 +11,7 @@ set mouse=a
 filetype plugin indent on
 
 let g:ale_python_flake8_options = '--max-line-length=120'
+let g:ale_python_mypy_options = '--ignore-missing-imports'
 
 call plug#begin()
 Plug 'dense-analysis/ale'
