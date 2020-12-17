@@ -4,6 +4,8 @@ I'm still figuring out symlinks and the logistics of this tbh.
 
 *shell*: fish <3
 
+*keyboard*: https://ilyabirman.net/projects/typography-layout/
+
 Anyway, here's an update.
 
 I wrote a couple of fish functions to do some stuff for me regularly which was interesting.
