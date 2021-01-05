@@ -1,6 +1,9 @@
 colorscheme murphy
 syntax on
 
+" save a precious keystroke
+nnoremap ; :
+
 set number
 set tabstop=4
 set shiftwidth=4
@@ -9,6 +12,7 @@ set autoindent
 set smartindent
 set pastetoggle=<F2>
 set mouse=a
+set splitright  " imagine left splitting
 
 set wildmenu
 set wildmode=longest:full,full
@@ -36,7 +40,6 @@ Plug 'jiangmiao/auto-pairs'
 Plug 'rust-lang/rust.vim'
 call plug#end()
 
-" commented bc I made xsel xclip bindings
 " wsl yank support
 let s:clip = 'clip.exe' 
 if executable(s:clip)
