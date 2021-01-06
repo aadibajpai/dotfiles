@@ -15,3 +15,5 @@ am now the _proud_ owner of a very small .vimrc (although everyone just tells me
 
 I want to figure out better dotfiles management too btw, apparently git + stow is a good way to do it
 but I need to look more into it.
+
+Okay, I'm using stow now. So much easier, thanks Ben.
