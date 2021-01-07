@@ -2,9 +2,12 @@
 
 I'm still figuring out symlinks and the logistics of this tbh.
 
-*shell*: fish <3
-
-*keyboard*: https://ilyabirman.net/projects/typography-layout/
+|Function|Software|
+|---|---|
+|*operating system*|Windows, WSL|
+|*shell*| fish <3|
+|*keyboard*| https://ilyabirman.net/projects/typography-layout/|
+|*editor*|vim, PyCharm etc.|
 
 Anyway, here's an update.
 
