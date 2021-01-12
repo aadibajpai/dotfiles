@@ -3,6 +3,9 @@ syntax on
 
 " save a precious keystroke
 nnoremap ; :
+" sane defaults sigh
+inoremap <Down> <C-o>gj
+inoremap <Up> <C-o>gk
 
 set number
 set tabstop=4
