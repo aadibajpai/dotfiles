@@ -13,8 +13,10 @@ set shiftwidth=4
 set expandtab
 set autoindent
 set smartindent
+set incsearch
 set pastetoggle=<F2>
 set mouse=a
+set t_ut=  " makes scrolling up after exiting vim transparent instead of black
 set splitright  " imagine left splitting
 
 set wildmenu
@@ -41,6 +43,7 @@ call plug#begin()
 Plug 'dense-analysis/ale'
 Plug 'jiangmiao/auto-pairs'
 Plug 'rust-lang/rust.vim'
+Plug 'tpope/vim-sleuth'  " so I can work on VandyHacks tab indent files sigh
 call plug#end()
 
 " wsl yank support
