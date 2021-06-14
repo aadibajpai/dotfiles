@@ -1,3 +1,3 @@
-function cat --wraps=bat --wraps=batcat --description 'alias cat batcat'
-    batcat --style=plain $argv
+function cat --wraps=bat --description 'alias cat bat'
+    bat --style=plain $argv
 end

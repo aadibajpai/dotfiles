@@ -1,1 +1,1 @@
-/home/clash/.local/share/omf/themes/bobthefish/fish_prompt.fish
+/home/clash/.local/share/omf/themes/bobthefish/functions/fish_prompt.fish
