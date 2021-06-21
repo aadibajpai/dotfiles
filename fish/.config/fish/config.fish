@@ -16,3 +16,8 @@ if test -z (pgrep ssh-agent)
   set -Ux SSH_AUTH_SOCK $SSH_AUTH_SOCK
   ssh-add
 end
+
+# in manjaro it seems ssh-agent autostarted so adding this
+if test (ssh-add -l) = "The agent has no identities."
+  ssh-add
+end
