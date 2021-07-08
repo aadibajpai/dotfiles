@@ -4,8 +4,8 @@ I'm still figuring out symlinks and the logistics of this tbh.
 
 |Function|Software|
 |---|---|
-|*operating system*| Windows, WSL|
-|*terminal emulator*| Windows Terminal| 
+|*operating system*| ~~Windows, WSL~~ Manjaro|
+|*terminal emulator*| ~~Windows Terminal~~ kitty| 
 |*shell*| fish <3|
 |*keyboard*| https://ilyabirman.net/projects/typography-layout/|
 |*editor*| vim, PyCharm etc.|
