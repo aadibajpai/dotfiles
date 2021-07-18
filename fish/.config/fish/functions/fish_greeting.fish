@@ -11,6 +11,6 @@ function fish_greeting --description What\'s\ up,\ fish\?
     set_color normal
     
     # custom stuff now
-    fortune -a | lolcat
+    fortune | lolcat
 
 end

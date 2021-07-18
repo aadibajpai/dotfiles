@@ -1,4 +1,5 @@
-set -g theme_date_timezone America/Chicago
+# I have been moving tz a lot recently
+# set -g theme_date_timezone America/Chicago
 set -g theme_date_format "+%a %b %d %I:%M:%S %p %Y"
 # enable passphrase prompt for gpg
 set -gx GPG_TTY (tty)
