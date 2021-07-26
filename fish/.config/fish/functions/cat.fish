@@ -1,3 +1,7 @@
 function cat --wraps=bat --description 'alias cat bat'
-    bat --style=plain $argv
+    if is_dark
+        bat --style=plain $argv
+    else
+        bat --style=plain --theme=ansi $argv
+    end
 end
