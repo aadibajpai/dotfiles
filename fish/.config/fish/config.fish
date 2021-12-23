@@ -22,3 +22,6 @@ end
 if test (ssh-add -l) = "The agent has no identities."
   ssh-add
 end
+
+# nix things
+# any-nix-shell fish --info-right | source
