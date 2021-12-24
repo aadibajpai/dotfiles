@@ -10,7 +10,8 @@ set -gx GPG_TTY (tty)
 # set -g theme_display_ruby no
 
 # ssh-agent stuff
-if test -z (pgrep ssh-agent)
+# -n checks for newest process when there is ssh-add too
+if test -z (pgrep -n ssh-agent)
   eval (ssh-agent -c)
   set -Ux SSH_AUTH_SOCK $SSH_AUTH_SOCK
   set -Ux SSH_AGENT_PID $SSH_AGENT_PID
@@ -18,10 +19,10 @@ if test -z (pgrep ssh-agent)
   ssh-add
 end
 
-# in manjaro it seems ssh-agent autostarted so adding this
-if test (ssh-add -l) = "The agent has no identities."
-  ssh-add
-end
+# in manjaro it seems ssh-agent autostarted so adding this, commenting for macOS
+# if test (ssh-add -l) = "The agent has no identities."
+#  ssh-add
+# end
 
 # nix things
 # any-nix-shell fish --info-right | source
