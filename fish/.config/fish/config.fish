@@ -20,9 +20,9 @@ if test -z (pgrep -n ssh-agent)
 end
 
 # in manjaro it seems ssh-agent autostarted so adding this, commenting for macOS
-# if test (ssh-add -l) = "The agent has no identities."
-#  ssh-add
-# end
+if test (ssh-add -l) = "The agent has no identities."
+ ssh-add
+end
 
 # nix things
 # any-nix-shell fish --info-right | source
