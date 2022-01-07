@@ -4,11 +4,11 @@ I'm still figuring out symlinks and the logistics of this tbh.
 
 |Function|Software|
 |---|---|
-|*operating system*| ~~Windows, WSL~~ Manjaro|
-|*terminal emulator*| ~~Windows Terminal~~ kitty| 
+|*operating system*| ~~Windows, WSL~~, ~~Manjaro~~, macOS|
+|*terminal emulator*| ~~Windows Terminal~~, ~~kitty~~, Apple Terminal| 
 |*shell*| fish <3|
 |*keyboard*| https://ilyabirman.net/projects/typography-layout/|
-|*editor*| vim, PyCharm etc.|
+|*editor*| vim, ~~PyCharm etc.~~, VS Code finally|
 
 I wrote a couple of fish functions to do some stuff for me regularly which was interesting.
 
